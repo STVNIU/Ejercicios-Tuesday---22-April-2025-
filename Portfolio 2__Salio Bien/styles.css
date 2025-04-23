@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+
+.headerP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    .headerP__h1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .headerP__nav {
+        display: flex;
+        gap: 15px;
+
+        & a {
+            color: black;
+            text-decoration: none;
+            font-size: 15px;
+        } 
+
+        & a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.sectionExperiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .ul1 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .ul1__border {
+            list-style: none;
+            border: 2px solid black;
+            padding: 2px 4px;
+            border-radius: 3px;
+            background-color: gray;
+            color: white;
+        }
+    }
+
+    .ul2 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .ul2__border {
+            list-style: none;
+            border: 2px solid black;
+            padding: 2px 4px;
+            border-radius: 3px;
+            background-color: gray;
+            color: white;
+        }
+    }
+}
+
+
+.sectionProyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    & ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+

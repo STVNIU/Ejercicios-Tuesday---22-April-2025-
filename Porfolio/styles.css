@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+
+.header__Present {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header__Principal {
+    display: flex;
+    max-width: 768px;
+    align-items: center;
+}
+
+.myphoto {
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    color: gray;
+}
+
